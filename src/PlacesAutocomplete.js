@@ -98,7 +98,7 @@ class PlacesAutocomplete extends Component {
     if (activeItem === undefined) {
       this.handleEnterKeyWithoutActiveItem()
     } else {
-      this.selectAddress(activeItem.suggestion, activeItem.placeId)
+      this.selectAddress(activeItem.suggestion, activeItem.placeId, activeItem)
     }
   }
 
